@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.project_header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 10px solid white;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.main_header{
+    position: relative;
+    right: 20px;
+}
+.mini_header{
+    display: flex;
+    gap: 30px;
+}
+.mini_header2{
+    display: flex;
+    gap: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+.main_content{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+}
+.main_content1,.main_content2,.main_content3,.c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.pr_header2{
+    /* display: flex; */
+    position: relative;
+    left: 200px;
+}
+.pr_header3{
+    position: relative;
+    left: 200px;
+    position: absolute;
+    right: 150px;
+}
+.pr_header4{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.side_menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.pr_main{
+    display: flex;
+    gap: 20px;
+}
+.pr_main2{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.pr_mini3{
+    display: flex;
+    position: absolute;
+   
+}
+.pr_mini4{
+    background-color: gray;
+    /* display: flex; */
+    
+}
+.pr_mini5{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    display: flex;
+    gap: 20px;
+}
+.pr_mini6{
+    display: flex;
+    gap: 30px;
+}
+.pr_mini7{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
